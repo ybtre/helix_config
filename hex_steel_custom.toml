@@ -1,0 +1,47 @@
+inherits = "hex_steel"
+
+"ui.statusline" = { fg = "highlight_three", bg = "t1" }
+"ui.statusline.inactive" = { fg = "t4", bg = "t1" }
+"ui.statusline.insert" = { fg = "highlight_two", bg = "t4" }
+
+"variable" = { fg = "t4", modifiers = ["bold"] }
+
+
+[palette]
+t1 = "#0e0e0d"
+t2 = "#1d1e1b"
+t3 = "#5b5555"
+t4 = "#656869"
+t5 = "#727b7c"
+# t5 = "#e69138"
+t6 = "#6e8789"
+t7 = "#d85c60"
+# t7 = "#e69138"
+t8 = "#a5c7c1"
+t9 = "#b5c5c5"
+t10 = "#c0d0ce"
+t11 = "#f78c5e"
+
+# highlight = "#3f36f2"
+highlight = "#ff2e5f"
+highlight_two = "#f69c3c"
+# highlight_three = "#d4d987"
+highlight_three = "#29bbff"
+
+# selection = "#032d4a"
+selection = "#290019"
+
+black = "#000000"
+# comment = "#d4d987"
+comment = "#9aacfe"
+comment_doc = "#234048"
+
+error = "#ff0900"
+warning = "#ffbf00"
+display = "#42baff"
+info = "#dad7d5"
+
+diff_minus = "#ff0900"
+diff_delta = "#0078bd"
+diff_plus = "#87a800"
+diff_delta_moved = "#0048bd"
